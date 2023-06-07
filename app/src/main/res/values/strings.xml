@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PRACTICA3</string>
+    <string name="button">Bienvenidos</string>
+    <string name="button1">Iniciemos :)</string>
+    <string name="button3">Calificar</string>
+    <string name="button2">Segunda actividad</string>
+    <string name="button4">Ultima Actividad</string>
+    <string name="button5">Finalizacion</string>
+    <string name="textview">Bievenido este programa, pondras a prueba tus habilidades en matematicas  </string>
+    <string name="textview2">Matematicas</string>
+    <string name="textview3">Test de conocmiento</string>
+    <string name="textview4">En este test podras responder a preguntas basicas de nivel medio ,dichas preguntas se tomaran en cuenta para la calificacion final como tambien los posibles fallos </string>
+    <string name="todo">TODO</string>
+    <string name="textview5">Derivadas</string>
+    <string name="textview6">Realiza esta derivada a partir de los conocimientos optenidos en tus semestres pasados</string>
+    <string name="textview7">Limites</string>
+    <string name="todo1">TODO</string>
+    <string name="textview8">Apartir de tus conocimientos en limites realizar el siguiente ejercicio</string>
+    <string name="textview9">Integrales</string>
+    <string name="textview10">Con los conocmientos basicos de Integrales favor de responder este ejercicio</string>
+    <string name="todo3">TODO</string>
+    <string name="radiobutton">(6x - 1)/(2sqrt(3x ^ 2 - x))</string>
+    <string name="radiobutton2">0</string>
+    <string name="radiobutton3">-1</string>
+    <string name="radiobutton4">-100</string>
+    <string name="radiobutton5">28</string>
+    <string name="radiobutton6">0</string>
+    <string name="radiobutton7">-50</string>
+    <string name="radiobutton8">510</string>
+    <string name="radiobutton9">46/3</string>
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="BOTOOON"
+    android:background="@drawable/fondo3"
+    tools:context=".Plantilla5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:text="@string/textview9"
+            android:textSize="26sp"
+            android:textColor="@color/white"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/textview10"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            tools:ignore="TextSizeCheck" />
+
+        <LinearLayout
+            android:layout_width="374dp"
+            android:layout_height="149dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="149dp"
+                android:contentDescription="@string/todo3"
+                app:srcCompat="@drawable/maxresdefault__2_" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <RadioButton
+                android:id="@+id/RABI001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radiobutton7"
+                android:textColor="@color/white"
+                tools:ignore="DuplicateSpeakableTextCheck,VisualLintButtonSize" />
+
+            <RadioButton
+                android:id="@+id/RADI002"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radiobutton8"
+                android:textColor="@color/white"
+                tools:ignore="VisualLintButtonSize" />
+
+            <RadioButton
+                android:id="@+id/RADI003"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radiobutton9"
+                android:textColor="@color/white"
+                tools:ignore="VisualLintButtonSize" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="BOTOOON"
+            android:text="@string/button4"
+            tools:ignore="VisualLintButtonSize" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
